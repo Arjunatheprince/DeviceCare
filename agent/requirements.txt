@@ -1,0 +1,8 @@
+# DeviceCare Agent — Python dependencies
+# Install: pip install -r requirements.txt
+
+psutil==6.1.0       # CPU, RAM, disk, battery, network
+WMI==1.5.1          # Windows WMI (device info + temperature fallback)
+requests==2.32.3    # HTTP client untuk kirim data ke Laravel backend
+# pywin32 diperlukan oleh WMI:
+# pip install pywin32 && python -m pywin32_postinstall install
